@@ -35,21 +35,33 @@ a:hover {
 
 }
 
-h1, h2 {
-  text-align: left;
+h1 {
+  text-align: center;
+  margin-top: 2rem;
   font-family: 'Raleway', sans-serif;
 
 }
 /*Banner*/
 .banner{
-  background-image: url(../images/banner-1.png);
+  background-image: url(../images/banner-3.png);
   background-size: cover;
   margin-top: -1rem;
   background-repeat: no-repeat;
   text-align: center;
+  color: white;
+  position: relative;
+  padding: 10em;
+  width: 100%;
+
+}
+.colourlessbanner{
+  background-size: cover;
+  margin-top: -1rem;
+  text-align: center;
   color: black;
   position: relative;
-  padding: 3.5em;
+  padding: 10em;
+  width: 100%;
 
 }
 /*Thumbnail*/
