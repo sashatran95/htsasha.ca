@@ -27,7 +27,6 @@ ul {
 }
 a {
   text-decoration: none;
-  display: inline-block;
 }
 
 a:hover {
@@ -60,7 +59,7 @@ h1 {
   text-align: center;
   color: black;
   position: relative;
-  padding: 10em;
+  padding: 5em;
   width: 100%;
 
 }
@@ -74,14 +73,14 @@ h1 {
   padding: 0em;
 
 }
-.thumbnail img:hover {
+/*.thumbnail img:hover {
     padding: .25em;
 
-}
+}*/
 
 .thumbnail a {
   text-decoration: none;
-  color: #000;
+  color: black;
 
 }
 
