@@ -7,8 +7,35 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 
+} /* Navigation */
+header {
+  width: 100%;
+}
+.home-icon {
+  width: 25%;
 }
 
+nav {
+  text-align: center;
+}
+
+nav a{
+
+  text-decoration: none;
+  color: black;
+  padding: 11px 35px;
+  display: block;
+
+}
+
+nav a:hover{
+  color: grey;
+
+}
+nav ul {
+  list-style: none;
+
+}
 .topbtn {
   color: white;
 
@@ -112,7 +139,6 @@ footer p{
 /*Social Media Icons*/
 
 .soc-icon{
-  padding-left: 0;
-  padding-top: 10px;
-  margin: 0;
+  display: inline-block;
+
 }
