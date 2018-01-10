@@ -12,8 +12,10 @@ header {
   width: 100%;
 }
 .home-icon {
-  width: 25%;
-  padding: 12px 3px 8px 12px;
+  width: 47%;
+  padding: 24px 0 0 0;
+  padding-left: 5px;
+  margin-left: 0.2em;
 }
 
 nav {
@@ -38,7 +40,7 @@ nav ul {
   text-align: right;
 
 }
-.topbtn {
+.top-btn {
   color: white;
 
 }
@@ -52,6 +54,15 @@ ul {
 	list-style: none;
   color: white;
   font-family: 'Open Sans Condensed', sans-serif;
+
+}
+
+.nav-port a {
+  color: white;
+
+}
+.nav-port a:hover {
+  color: black;
 
 }
 a {
@@ -159,4 +170,4 @@ footer p{
 
 }
 
-/**/
+/*Media Query*/
