@@ -80,6 +80,19 @@ h1 {
   position: relative;
   padding: 10em;
   width: 100%;
+}
+
+.banner-solid {
+  color: white;
+  background-color: grey;
+  padding: 9em;
+
+}
+
+.banner-solid2 {
+  color: black;
+  background-color: white;
+  padding: 3em;
 
 }
 .colourlessbanner{
@@ -93,6 +106,7 @@ h1 {
 
 }
 /*Thumbnail*/
+
 .thumbnail {
   display: block;
 
@@ -144,3 +158,5 @@ footer p{
   display: inline-block;
 
 }
+
+/**/
