@@ -57,6 +57,11 @@ ul {
 
 }
 
+.port-icon-resize {
+  padding-bottom: 6em;
+
+}
+
 .nav-port a {
   color: white;
 
@@ -73,7 +78,6 @@ a:hover {
   color: grey;
 
 }
-
 h1 {
   text-align: center;
   margin-top: 2rem;
@@ -169,5 +173,37 @@ footer p{
   display: inline-block;
 
 }
-
 /*Media Query*/
+@media only screen and (min-width: 608px) {
+
+  .two-center-icon {
+    margin-left: 9em;
+
+  }
+}
+@media only screen and (min-width: 53.4375em) {/*855px*/
+
+  .port-icon-resize {
+    padding: 0 2em 5em 8em;
+    width: 90%;
+    text-align: center;
+
+  }
+
+}
+@media only screen and (min-width: 1118px) {
+
+  .field-cons {
+    width: 50%;
+
+  }
+}
+
+@media only screen and (min-width: 1270px) {
+
+  .port-icon-resize {
+    padding: 0 5em 6em 12em;
+
+  }
+
+}
