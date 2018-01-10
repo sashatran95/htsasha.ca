@@ -169,8 +169,16 @@ footer p{
 }
 /*Social Media Icons*/
 
-.soc-icon{
+.soc-icon {
   display: inline-block;
+}
+
+.soc-icon a{
+  color: white;
+}
+
+.soc-icon a:hover{
+  color: grey;
 
 }
 /*Media Query*/
