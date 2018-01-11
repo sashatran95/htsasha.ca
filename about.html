@@ -14,16 +14,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
 
-  <div class="grid xs-centered s-centered m-right l-right">
-    <header class="unit masthead xs-1 s-1 m-1-3 l-1-3">
-      <a href="index.html"><img class="home-icon unit-xs-centered s-centered m-left l-left peta push-0" src="images/my-logo.png" alt="home"></a>
-    </header>
-    <nav id="nav" class="unit gutter-1-2 xs-1 s-1 m-2-3 l-2-3 pad-t-1-2 pad-b-1-2">
-      <ul class="list-group push-0 mega">   
-        <li><a class="island-1-3" href="portfolio.html">Portfolio</a></li>
-        <li><a class="island-1-3" href="about.html">About Me</a></li>
-      </ul>
-    </nav>
+  <div>
+    <input type="checkbox" class="nav-check hide-custom-input" id="nav-check">
+      <!-- This is the button we’d click to open/close the navigation -->
+      <label class="nav-label" for="nav-check">
+        <img class="nav-open" src="images/nav-icon.png" alt="Open Navigation">
+        <img class="nav-close" src="images/nav-icon-close.png" alt="Close Navigation">
+      </label>
+      <nav id="nav" class="nav-toggle pin-t">
+        <ul class="list-group push-0 mega">
+          <li><a class="island-1-3" href="portfolio.html">Portfolio</a></li>
+          <li><a class="island-1-3" href="about.html">About Me</a></li>
+        </ul>
+      </nav>
+
+    <div>
+      <div class="grid xs-centered s-centered m-right l-right">
+        <header class="unit masthead xs-1-3">
+          <a href="index.html"><img class="home-icon unit-xs-left peta push-0" src="images/my-logo.png" alt="home"></a>
+        </header>
+        <nav id="nav" class="unit nav-main gutter-1-2 xs-1 s-1 m-2-3 l-2-3 pad-t-1-2 pad-b-1-2">
+          <ul class="list-group push-0 mega">
+            <li><a class="island-1-3" href="portfolio.html">Portfolio</a></li>
+            <li><a class="island-1-3" href="about.html">About Me</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
   </div>
 
   <body>

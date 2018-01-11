@@ -231,10 +231,14 @@ footer p{
   color: white;
 }
 /*Social Media Icons*/
-r
+
+li {
+  width: 5%;
+}
+
+
 .soc-icon a{
   color: white;
-  width: 1%;
   display: inline-block;
 }
 
