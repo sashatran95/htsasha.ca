@@ -30,32 +30,72 @@ a {
 a:hover{
   color: #acbbd2;
 }
-
-nav {
-  text-align: center;
-}
-
-nav a{
-
-  text-decoration: none;
-  color: #003462;
-  padding: 11px 35px;
-  display: block;
-
-}
-
-nav a:hover{
-  color: #acbbd2;
-
-}
-nav ul {
-  list-style: none;
-  text-align: right;
-
-}
-
 .desc{
   padding: 3em 3em; 
+
+}/*Smol Nav*/
+.nav-toggle {
+  display: none;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  position: fixed;
+  background-color: #0b6288;
+  z-index: 10;
+  right: 15px;
+  top: 31px;
+  right: 50px;
+  padding: 15px 13px;
+
+}
+
+.nav-toggle a {
+  display: block;
+  padding: 0.5em;
+  text-decoration: none;
+  list-style-type: none;
+  color: #fff;
+}
+
+.nav-check:checked ~ .nav-toggle {
+  display: block;
+}
+
+.nav-check {
+  position: absolute;
+  top: -3em;
+}
+
+.nav-label {
+  cursor: pointer;
+  display: inline-block;
+  width: 40px;
+  position: fixed;
+  right: 15px;
+  top: 30px;
+}
+
+.nav-open,
+.nav-close {
+  display: block;
+  width: 100%;
+}
+
+.nav-check:checked ~ .nav-label {
+  background-color: #ff
+}
+
+.nav-close {
+  display: none;
+}
+
+.nav-check:checked ~ .nav-label .nav-open {
+  display: none;
+}
+
+.nav-check:checked ~ .nav-label .nav-close {
+  display: block;
+/*END*/
 
 }
 .top-btn {
@@ -79,6 +119,10 @@ ul {
 .port-icon-resize {
   padding-bottom: 6em;
 
+}
+.3spooky5me{
+  width: 20%;
+  padding-left: 2em;
 }
 
 .nav-port a {
@@ -190,6 +234,8 @@ r
 .soc-icon a:hover{
   color: #acbbd2;
 
+
+
 }
 /*Media Query*/
 @media only screen and (min-width: 0px, max-width: 607px) {
@@ -204,6 +250,37 @@ r
     margin-left: 9em;
 
   }
+  .nav-label,
+  .nav-open,
+  .nav-close {
+    display: none;
+
+  }
+
+  nav {
+    text-align: center;
+    display: block;
+
+  }
+
+  nav a{
+
+    text-decoration: none;
+    color: #003462;
+    padding: 11px 35px;
+
+  }
+
+  nav a:hover{
+    color: #acbbd2;
+
+  }
+  nav ul {
+    list-style: none;
+    text-align: right;
+
+  }
+
 }
 @media only screen and (min-width: 53.4375em) {/*855px*/
 
