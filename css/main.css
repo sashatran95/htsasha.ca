@@ -236,15 +236,21 @@ li {
   width: 5%;
 }
 
+li a {
+  width: 100%;
+}
 
 .soc-icon a{
-  color: white;
   display: inline-block;
 }
 
 .soc-icon a:hover{
   color: #acbbd2;
+}
 
+.svg-icons {
+  width: 100%;
+}
 
 
 }
