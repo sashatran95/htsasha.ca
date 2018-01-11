@@ -13,27 +13,34 @@ html {
   box-sizing: inherit;
 
 } /* Navigation */
-header {
-  width: 100%;
-}
+
 .home-icon {
-  width: 47%;
+  width: 90%;
   padding: 24px 0 0 0;
   padding-left: 5px;
   margin-left: 0.2em;
 }
 
 a {
-
   text-decoration: none;
 }
 a:hover{
   color: #acbbd2;
 }
+
 .desc{
   padding: 3em 3em; 
 
+}
+
+header {
+  padding: 1em 2em 1em 2em;
+
 }/*Smol Nav*/
+.nav-main {
+  display: none;
+}
+
 .nav-toggle {
   display: none;
   margin: 0;
@@ -238,16 +245,17 @@ r
 
 }
 /*Media Query*/
-@media only screen and (min-width: 0px, max-width: 607px) {
-  .nav-smol-scrn {
-
-  }
-}
-
 @media only screen and (min-width: 608px) {
 
   .two-center-icon {
     margin-left: 9em;
+  
+  }
+  .home-icon {
+    width: 70%;
+  }
+  header {
+    padding: 0 2em 0 2em;
 
   }
   .nav-label,
@@ -256,8 +264,7 @@ r
     display: none;
 
   }
-
-  nav {
+  .nav-main {
     text-align: center;
     display: block;
 
@@ -290,12 +297,18 @@ r
     text-align: center;
 
   }
+  .home-icon {
+    width: 60%;
+  }
 
 }
 @media only screen and (min-width: 1118px) {
 
   .field-cons {
     width: 50%;
+  }
+  .home-icon {
+    width: 40%;
 
   }
 }
@@ -306,5 +319,6 @@ r
     padding: 0 5em 6em 12em;
 
   }
-
+  .home-icon {
+    width: 20%;
 }
