@@ -41,8 +41,8 @@ nav ul {
 
 }
 
-.desc p {
-  margin: 2em 0 2em 2; 
+.desc{
+  padding: 3em 3em; 
 
 }
 .top-btn {
@@ -165,14 +165,11 @@ footer p{
   color: white;
 }
 /*Social Media Icons*/
-
-.soc-icon {
-  width: 20%;
-  display: inline-block;
-}
-
+r
 .soc-icon a{
   color: white;
+  width: 1%;
+  display: inline-block;
 }
 
 .soc-icon a:hover{
