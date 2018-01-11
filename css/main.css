@@ -40,6 +40,11 @@ nav ul {
   text-align: right;
 
 }
+
+.desc p {
+  margin: 2em 0 2em 2; 
+
+}
 .top-btn {
   color: white;
 
@@ -68,14 +73,6 @@ ul {
 }
 .nav-port a:hover {
   color: black;
-
-}
-a {
-  text-decoration: none;
-}
-
-a:hover {
-  color: grey;
 
 }
 h1 {
