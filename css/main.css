@@ -37,9 +37,6 @@ header {
   padding: 1em 2em 1em 2em;
 
 }/*Smol Nav*/
-.nav-main {
-  display: none;
-}
 
 .nav-toggle {
   display: none;
@@ -255,6 +252,11 @@ li a {
 
 }
 /*Media Query*/
+@media only screen and (max-width: 607px) {
+  .nav-main {
+    display: none;
+  }
+}
 @media only screen and (min-width: 608px) {
 
   .two-center-icon {
@@ -274,7 +276,7 @@ li a {
     display: none;
 
   }
-  
+
   .nav-toggle {
     display: none;
 
