@@ -63,6 +63,7 @@ header {
 
 .nav-check:checked ~ .nav-toggle {
   display: block;
+  width: 200px;
 }
 
 .nav-check {
@@ -228,10 +229,6 @@ footer p{
   color: white;
 }
 /*Social Media Icons*/
-
-li {
-  width: 5%;
-}
 
 li a {
   width: 100%;
