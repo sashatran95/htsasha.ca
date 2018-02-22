@@ -23,6 +23,7 @@ html {
 
 a {
   text-decoration: none;
+
 }
 a:hover{
   color: #acbbd2;
@@ -87,7 +88,7 @@ header {
 }
 
 .nav-check:checked ~ .nav-label {
-  background-color: #ff
+  background-color: #fff
 }
 
 .nav-close {
@@ -121,6 +122,25 @@ ul {
 
 }
 
+#text-hover p {
+  position: absolute;
+  display: hidden;
+  color: #003462;
+  padding: 0 auto;
+  display: block;
+}
+
+#text-hover:hover  p{
+  position: absolute;
+  display: block;
+  background-color: #003462;
+  color: white;
+
+}
+.port-icon-resize a {
+
+}
+
 .port-icon-resize {
   padding-bottom: 6em;
 
@@ -129,7 +149,6 @@ ul {
   width: 20%;
   padding-left: 2em;
 }
-
 .nav-port a {
   color: white;
 
@@ -142,6 +161,10 @@ h1 {
   text-align: center;
   margin-top: 2rem;
   font-family: 'Raleway', sans-serif;
+}
+.rationale {
+  margin: 0 auto;
+  padding: 0 auto;
 
 }
 /*Banner*/
@@ -253,6 +276,14 @@ li a {
   .nav-main {
     display: none;
   }
+  .rationale{
+    width: 50%;
+    padding: 3em;
+  }
+  .gify,
+  .video {
+    padding: 4em;
+  }
 }
 @media only screen and (min-width: 608px) {
 
@@ -265,6 +296,10 @@ li a {
   }
   header {
     padding: 0 2em 0 2em;
+  }
+
+  .rationale {
+    text-align: left;
 
   }
   .nav-label,
@@ -315,6 +350,9 @@ li a {
     width: 60%;
   }
 
+  .rationale {
+    width: 60%;
+  }
 }
 @media only screen and (min-width: 1118px) {
 
